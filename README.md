@@ -1,3 +1,13 @@
+## About this repository
+
+This repository contains two key resources and a README that unify them for use with the agent‑os platform when developing WordPress plugins and full‑site editing (FSE) themes.
+
+- **wp‑code‑style.md** provides coding standards and best practices for WordPress development. It covers conventions for PHP, CSS, HTML, JavaScript and Markdown as well as security, accessibility and UI/UX guidelines. Copy this file into your `agent‑os/standards` directory (e.g., `/path/to/agent‑os/standards/wp‑code‑style.md`) to make these standards available to your agent‑os installation.
+
+- **wp‑development.md** provides a reusable instruction set for developing WordPress plugins or block themes using agent‑os. It includes pre‑flight checks, context questions, process flows and detailed development steps. Copy this file into your `agent‑os/instructions` directory (e.g., `/path/to/agent‑os/instructions/wp‑development.md`).
+
+This README combines the contents of both files, so you can view them together. Once the files are placed in the appropriate directories, the agent‑os system will automatically load them as part of its available standards and instructions.
+
 # WordPress Coding & Development Standards for agent‑os
 
 This section contains the full coding and development standards originally provided in `wp-code-style.md`.  It defines best practices for PHP, CSS, HTML, JavaScript and Markdown when developing WordPress plugins and full‑site editing (FSE) themes with agent‑os.  The guidelines include recommendations for general principles, formatting and syntax, security and validation, documentation, accessibility, plugin development and theme development.  To maintain fidelity with the original document, the contents below mirror the exact sections and lists found in the source file.
